@@ -28,9 +28,23 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain what a token is used for.
+
+Tokens are used to strengthen authentication processes in websites and  applications. Modern web services that deal with JSON data use Jason Web Tokens(JWT), which contain cryptic text and are stored on the client side using local storage.
+
 2. What steps can you take in your web apps to keep your data secure?
+
+One step is to use tokens, which the server can use to authenticate the user based on the credentials that are inputted. Another step is to use protected/private routes, which can only be accessed if the user is authorized. If the user tries to access the private route without authorization, they can be redirected to the login page.
+
 3. Describe how web servers work.
+
+Web servers are both the computer that store the code for a website and the program that runs on such computer. The physical web server(the computer) is connected to the internet and stores the code for different websites to be shared across the world at all times. When the code for our website/app is loaded, the server is hosting our website/app.
+
 4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+C - Create, axios.post()
+R - Read, axios.get()
+U - Update, axios.put()
+D - Delete, axios.delete()
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
